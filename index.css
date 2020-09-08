@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color: maroon;
+    overflow-x: hidden;
+}
+/* Utility Classes*/
+ .container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+ .text-primary {
+     color:brown;
+ }
+
+nav {
+     display: flex;
+     justify-content: space-between;
+     background: burlywood;
+     color: white;
+     padding: 1.5rem 8rem;
+     position: sticky;
+     top: 0;
+     z-index: 1;
+     border-bottom: 3px solid;
+ }
+nav ul{
+     display: flex;
+     align-items: center;
+     list-style: none;
+ }
+nav h2 a{
+     color: white;
+     text-decoration: none;
+ }
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+}
+nav li a:hover{
+    background-color: bisque;
+}
+#showcase {
+    background: url(xps-uWFFw7leQNI-unsplash.jpg) no-repeat center center/cover;
+    height: 90vh; 
+}
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    color: white;
+}
+.showcase-content h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.showcase-content h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.showcase-content .btn:hover{
+    background-color: blanchedalmond;
+    color: white;
+}
+.showcase-content .btn{
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    background: bisque;
+    color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
